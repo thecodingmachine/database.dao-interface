@@ -1,0 +1,23 @@
+{
+    "name": "mouf/database.dao-interface",
+    "description": "This package only contains a basic interface for implementing common DAO methods. Those DAOs will be used by BCE forms among other things.",
+    "keywords": ["database", "dao", "interface"],
+    "homepage": "http://www.mouf-php.com/",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Kevin Nguyen",
+            "email": "k.nguyen@thecodingmachine.com",
+            "homepage": "http://mouf-php.com"
+        }
+    ],
+    "require": {
+    	"php": ">=5.3.0"
+    },
+    "autoload": {
+        "psr-0": {
+            "Mouf": "src/"
+        }
+    }
+}
