@@ -4,7 +4,7 @@ namespace Mouf\Database;
  * Defines the mandatory functions that must declare a DAO 
  */
 
-interface DAOInterface{
+interface DAOInterface {
 
 	/**
 	 * Get a bean by it's Id
