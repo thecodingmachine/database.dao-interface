@@ -20,11 +20,18 @@ interface DAOInterface {
 	public function create();
 	
 	/**
-	 * 
+	 *
 	 * Peforms saving on a bean object
 	 * @param mixed bean object
 	 */
 	public function save($bean);
+
+    /**
+     *
+     * Peforms remove on a bean object
+     * @param mixed bean object
+     */
+    public function remove($bean);
 	
 	/**
 	 * Returns the lis of beans
